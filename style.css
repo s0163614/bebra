@@ -1053,3 +1053,146 @@ ul {
         padding: 26px 24px;
         color: #fff;
     }
+    .field--form-value form input:focus, .field--form-value form textarea:focus {
+        border-color: #f14d34;
+        outline: 0;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #f44336;
+    }
+    .field--form-value form .form-group {
+        margin-bottom: 7px;
+    }
+    .field--form-value input::-webkit-input-placeholder {
+        color: #fff;
+        font-size: 14px;
+    }
+    .field--form-value input:-ms-input-placeholder {
+        color: #fff;
+        font-size: 14px;
+    }
+    .field--form-value input::-moz-placeholder {
+        color: #fff;
+        font-size: 14px;
+    }
+    .field--form-value textarea::-webkit-input-placeholder {
+        color: #fff;
+        font-size: 14px;
+    }
+    .field--form-value textarea:-ms-input-placeholder {
+        color: #fff;
+        font-size: 14px;
+    }
+    .field--form-value textarea::-moz-placeholder {
+        color: #fff;
+        font-size: 14px;
+    }
+    .field--form-value .form-type-checkbox {
+        position: relative;
+    }
+    .field--form-value .form-type-checkbox input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        left: 6px;
+        top: 12px;
+        margin: 0;
+    }
+    .field--form-value .form-type-checkbox label {
+        padding-left: 38px;
+        font-size: 12px;
+        color: #fff;
+    }
+    .field--form-value .form-type-checkbox .custom-checkbox {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: transparent;
+        border: 2px solid rgba(256, 256, 256, .5);
+        border-radius: 5px;
+    }
+    .field--form-value .form-type-checkbox input~.custom-checkbox:after {
+        content: "";
+        display: block;
+        width: 21px;
+        height: 21px;
+        background: url('/img/checked-icon.svg') no-repeat center;
+        background-size: contain;
+        transition: opacity 200ms, transform 400ms;
+        transform: rotateZ(-30deg);
+        opacity: 0;
+    }
+    .field--form-value .form-type-checkbox input:checked~.custom-checkbox:after {
+        opacity: 1;
+        transform: initial;
+    }
+    .field--form-value .form-type-checkbox input:focus~.custom-checkbox {
+        border-color: #f14d34;
+        outline: 0;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #f44336;
+    }
+    .field--form-value .btn, .field--form-value .btn:focus, .field--form-value .btn:active {
+        background: #f14d34;
+        border: 2px solid #f14d34;
+        border-radius: 5px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 12px;
+        outline: 0;
+        box-shadow: none;
+        margin: 0;
+        display: block;
+        width: 100%;
+        padding: 20px 14px;
+        line-height: 1;
+        transition: background 300ms;
+    }
+    .field--form-value .btn:hover {
+        background: transparent;
+    }
+    .competencies {
+        padding: 100px 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .competencies h2 {
+        font-weight: bold;
+        font-size: 42px;
+        color: #050c33;
+        margin: 0 0 20px;
+    }
+    .competencies-description {
+        margin-bottom: 55px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #4f5a73;
+    }
+    .competencies-row {
+        margin-bottom: 0;
+    }
+    .competency {
+        margin-bottom: 60px;
+    }
+    .competency-icon {
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .competency-icon:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 115px;
+        height: 70px;
+        background: url(/img/icon-bg.svg) no-repeat center;
+        background-size: contain;
+        left: -54px;
+        bottom: -4px;
+    }
+    .competency-body {
+        font-weight: 500;
+        font-size: 16px;
+        color: #4f5a73;
+    }
+    .advantages {
+        font-family: 'Montserrat', sans-serif;
+    }
