@@ -88,3 +88,143 @@
         height: auto;
     }
 }
+
+@media all {
+    body {
+        position: relative;
+        margin: 0;
+    }
+    ul {
+        padding-left: 1.5em;
+    }
+    .footer {
+        margin-top: 45px;
+        padding-top: 35px;
+        padding-bottom: 36px;
+        border-top: 1px solid #E5E5E5;
+    }
+    article, footer, header, nav, section {
+        display: block;
+    }
+    video {
+        display: inline-block;
+        vertical-align: baseline;
+    }
+    a {
+        background-color: transparent;
+    }
+    a:active, a:hover {
+        outline: 0;
+    }
+    h1 {
+        font-size: 2em;
+        margin: .67em 0;
+    }
+    img {
+        border: 0;
+    }
+    button, input, textarea {
+        color: inherit;
+        font: inherit;
+        margin: 0;
+    }
+    button {
+        overflow: visible;
+    }
+    button {
+        text-transform: none;
+    }
+    button {
+        -webkit-appearance: button;
+        cursor: pointer;
+    }
+    button::-moz-focus-inner, input::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    *:before, *:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+    }
+    input, button, textarea {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    a {
+        color: #337ab7;
+        text-decoration: none;
+    }
+    a:hover, a:focus {
+        color: #23527c;
+        text-decoration: underline;
+    }
+    a:focus {
+        outline: thin dotted;
+        outline: 5px auto -webkit-focus-ring-color;
+        outline-offset: -2px;
+    }
+    img {
+        vertical-align: middle;
+    }
+    .img-responsive {
+        vertical-align: middle;
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+    }
+    [role="button"] {
+        cursor: pointer;
+    }
+    h1, h2 {
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        color: inherit;
+    }
+    h1, h2 {
+        margin-top: 22px;
+        margin-bottom: 11px;
+    }
+    h1 {
+        font-size: 41px;
+    }
+    h2 {
+        font-size: 34px;
+    }
+    p {
+        margin: 0 0 11px;
+    }
+    ul {
+        margin-top: 0;
+        margin-bottom: 11px;
+    }
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
