@@ -1196,3 +1196,389 @@ ul {
     .advantages {
         font-family: 'Montserrat', sans-serif;
     }
+.advantages h2 {
+        margin-bottom: 55px;
+        text-align: center;
+        color: #050c33;
+        font-weight: bold;
+        font-size: 42px;
+    }
+    .advantages-row {
+        padding: 0 12px;
+        position: relative;
+        z-index: 20;
+    }
+    .with-expertise .advantages-row {
+        margin-bottom: -212px;
+    }
+    .advantage-col {
+        margin-bottom: 5px;
+    }
+    .advantage {
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 20px 20px 40px rgba(5, 12, 51, .05);
+        margin-left: -12px;
+        margin-right: -12px;
+        height: 100%;
+        position: relative;
+        padding: 25px 25px 45px;
+        min-height: 292px;
+    }
+    .advantage-icon {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 5;
+    }
+    .advantage-num {
+        font-weight: bold;
+        font-size: 12px;
+        color: #828a9b;
+        margin-bottom: 20px;
+    }
+    .advantage-title {
+        font-weight: bold;
+        font-size: 18px;
+        color: #050c33;
+        line-height: 1.22;
+        margin-bottom: 15px;
+    }
+    .advantage-body {
+        position: relative;
+        z-index: 10;
+        font-weight: 500;
+        font-size: 16px;
+        color: #4e5a73;
+        line-height: 1.37;
+    }
+    .expertise {
+        padding: 380px 0 150px;
+        position: relative;
+        background: linear-gradient(254.72deg, rgba(255, 255, 255, .276) -114.85%, rgba(255, 255, 255, 0) 69.04%), #040613;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+    }
+    .expertise:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: url(/img/drupal-logo-2.svg) no-repeat right bottom;
+        background-size: contain;
+        z-index: 10;
+    }
+    .expertise .container {
+        position: relative;
+        z-index: 15;
+    }
+    .expertise h2 {
+        font-weight: bold;
+        font-size: 42px;
+        margin-bottom: 65px;
+    }
+    .expertise-row {
+        margin-bottom: 0;
+    }
+    .expertise-img {
+        padding: 0;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 50%;
+        z-index: 10;
+        max-width: 735px;
+    }
+    .expertise-img img {
+        width: 100%;
+        height: auto;
+        transform: translateY(16%);
+    }
+    .expertise-col {
+        margin-bottom: 30px;
+    }
+    .expertise-item-body {
+        border-left: 3px solid #f14d34;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        min-height: 88px;
+        height: 100%;
+        font-weight: 500;
+        font-size: 16px;
+        color: rgba(256, 256, 256, .7);
+        width: 260px;
+        max-width: 100%;
+    }
+    #block-views-block-team-new .block-title {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 42px;
+        color: #050c33;
+        margin-bottom: 80px;
+        margin-top: 130px;
+    }
+    #block-views-block-team-new .view-content {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #block-views-block-team-new .view-content:after, #block-views-block-team-new .view-content:before {
+        width: 0;
+    }
+    #block-views-block-team-new .views-row {
+        padding: 0 50px;
+    }
+    .user-teaser {
+        text-align: left;
+        margin-bottom: 70px;
+    }
+    .user-teaser-photo {
+        border-radius: 0;
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 25px;
+    }
+    .user-teaser-name a, .user-teaser-name {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.37;
+        color: #050c33;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    .user-teaser-post {
+        padding: 0;
+        color: #505570;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.37;
+        margin-bottom: 5px;
+    }
+    #block-views-block-our-clients {
+        margin-bottom: 110px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #block-views-block-our-clients .block-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 42px;
+        color: #050c33;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    #block-views-block-our-clients .view-header {
+        width: 740px;
+        max-width: 100%;
+        padding: 0 15px;
+        margin: auto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.37;
+        text-align: center;
+        color: #505570;
+        margin-bottom: 40px;
+    }
+    #block-views-block-our-clients .slick-list {
+        margin: 0;
+    }
+    #block-views-block-our-clients .attachment-after .slick-track {
+        margin-left: -10%;
+    }
+    #block-views-block-our-clients .slick__slide {
+        outline: 0;
+    }
+    #block-views-block-our-clients .slick__slide .views-field-field-project-logo {
+        border: 1px solid #e5e5e5;
+        box-sizing: border-box;
+        border-radius: 5px;
+        align-items: center;
+        padding: 5px;
+        min-height: 155px;
+        height: 155px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+    #block-views-block-testimonials-block-1 {
+        margin-bottom: 160px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        background: url(/img/right-quote-sign.svg) no-repeat left top;
+        background-size: 26%;
+        padding-top: 90px;
+    }
+    #block-views-block-testimonials-block-1 h2 {
+        font-weight: bold;
+        font-size: 42px;
+        margin-bottom: 46px;
+        margin-top: 0;
+        text-align: center;
+        color: #050c33;
+    }
+    #block-views-block-testimonials-block-1 .view-content {
+        width: 980px;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 74px;
+        position: relative;
+    }
+    #block-views-block-testimonials-block-1 .view-content:before {
+        content: "";
+        display: block;
+        background: #fff;
+        opacity: .5;
+        border: 1px solid rgba(0, 0, 0, .1);
+        box-sizing: border-box;
+        box-shadow: 0 4px 60px rgba(162, 162, 162, .25);
+        border-radius: 5px;
+        position: absolute;
+        top: -40px;
+        bottom: 0;
+        left: 64px;
+        right: 64px;
+        z-index: 5;
+    }
+    #block-views-block-testimonials-block-1 .view-content:after {
+        content: "";
+        display: block;
+        background: #fff;
+        opacity: .34;
+        border: 1px solid rgba(0, 0, 0, .1);
+        box-sizing: border-box;
+        box-shadow: 0 4px 60px rgba(162, 162, 162, .25);
+        border-radius: 5px;
+        position: absolute;
+        top: -72px;
+        bottom: 0;
+        left: 128px;
+        right: 128px;
+        z-index: 4;
+    }
+    #block-views-block-testimonials-block-1 .slick {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 10;
+        background: #fff;
+        border: 1px solid rgba(0, 0, 0, .1);
+        box-sizing: border-box;
+        box-shadow: 0 4px 60px rgba(162, 162, 162, .25);
+        border-radius: 5px;
+        padding: 66px 0 66px 68px;
+    }
+    #block-views-block-testimonials-block-1 .slick:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    #block-views-block-testimonials-block-1 .slick-list {
+        margin: 0;
+    }
+    #block-views-block-testimonials-block-1 .slick-slider {
+        width: 64%;
+        float: left;
+        padding-right: 60px;
+        border-right: 1px solid #cdcdcd;
+        padding: 14px 60px;
+    }
+    #block-views-block-testimonials-block-1 .slick-slide {
+        outline: 0;
+    }
+    #block-views-block-testimonials-block-1 .slick__arrow {
+        width: 36%;
+        float: left;
+        display: flex;
+    }
+    #block-views-block-testimonials-block-1 .slick__arrow-wrapper {
+        margin: auto;
+    }
+    #block-views-block-testimonials-block-1 .slick-arrow {
+        width: 16px;
+        height: 32px;
+        border: 0;
+        box-shadow: none;
+        font-size: 0;
+        outline: 0;
+    }
+    #block-views-block-testimonials-block-1 .slick-arrow.slick-prev {
+        background: url('/img/arrow-left.jpg') no-repeat center;
+        background-size: contain;
+    }
+    #block-views-block-testimonials-block-1 .slick-arrow.slick-next {
+        background: url('/img/arrow-right.png') no-repeat center;
+        background-size: contain;
+    }
+    #block-views-block-testimonials-block-1 .slick-slide-num {
+        display: inline-block;
+        margin: 0 46px;
+        font-size: 28px;
+        vertical-align: middle;
+        color: #e0e0e0;
+    }
+    #block-views-block-testimonials-block-1 .slick-slide-num-current {
+        color: #050c33;
+    }
+    #block-views-block-testimonials-block-1 .views-field-field-project-logo {
+        text-align: left;
+    }
+    #block-views-block-testimonials-block-1 .views-field-field-project-logo img {
+        margin: 0 0 40px;
+    }
+    #block-views-block-testimonials-block-1 .views-field-field-report-text {
+        margin-bottom: 28px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 1.2;
+        color: #050c33;
+        outline: 0;
+        text-decoration-line: underline;
+    }
+    #block-views-block-testimonials-block-1 .views-field-field-report-author {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.2;
+        color: #838b9c;
+    }
+    #block-views-block-blog-block-1 .view-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #block-views-block-blog-block-1 .view-content:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    #block-views-block-blog-block-1 .block-title {
+        font-weight: bold;
+        font-size: 42px;
+        margin-bottom: 46px;
+        margin-top: 0;
+        text-align: center;
+        color: #050c33;
+    }
+    #block-views-block-blog-block-1 .more-link {
+        text-align: center;
+    }
+    #block-views-block-blog-block-1 .more-link a {
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1;
+        text-transform: uppercase;
+        color: #050c33;
+        padding: 24px 75px;
+        border: 1px solid #cccdd5;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
