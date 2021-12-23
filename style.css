@@ -1861,3 +1861,362 @@ ul {
             padding: 10px 30px;
         }
     }
+ @media (max-width:767px) {
+        #block-tariffs, .competencies {
+            padding: 50px 0;
+            background-size: cover;
+        }
+        #block-tariffs {
+            padding-top: 105px;
+        }
+        .row-flex {
+            margin-bottom: 10px;
+        }
+        .tariff {
+            margin: 0 auto 30px;
+            padding: 30px 15px;
+            width: 420px;
+            max-width: 100%;
+        }
+        .tariff-wrapper {
+            width: 100%;
+        }
+        .tariff:hover, .tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover, .col-flex:nth-of-type(2n) .tariff {
+            transform: initial;
+        }
+        .block-main {
+            padding-top: 40px;
+        }
+        .block-main:before {
+            background-size: contain;
+            background-position: center top;
+        }
+        .block-main h1 {
+            font-size: 42px;
+            line-height: 1.2;
+            text-align: center;
+        }
+        .support-main-description {
+            font-size: 14px;
+            text-align: center;
+        }
+        .block-main-wrapper {
+            text-align: center;
+        }
+        .block-main-btn {
+            margin-bottom: 55px;
+        }
+        .block-form-title, .competencies h2, .advantages h2, .expertise h2, #block-tariffs .block-title, #block-views-block-team-new .block-title, #block-views-block-our-clients .block-title, #block-views-block-testimonials-block-1 .block-title, #block-views-block-blog-block-1 .block-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            margin-top: initial;
+        }
+        .block-form-wrapper {
+            margin: 0 auto 30px;
+            text-align: center;
+        }
+        .block-form-contacts ul li a {
+            font-size: 14px;
+        }
+        .block-form-contacts .block-form-phone a {
+            font-size: 24px;
+        }
+        .field--form-value form {
+            margin: auto;
+        }
+        footer {
+            background-size: cover, 165px, 140px;
+        }
+        .competency {
+            margin-bottom: 30px;
+        }
+        .competency-header {
+            text-align: center;
+        }
+        .competency-icon {
+            padding: 0;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        .competency-icon:before {
+            left: -54px;
+        }
+        .competency-icon img {
+            margin: auto;
+        }
+        .competency-body {
+            font-size: 14px;
+            width: 200px;
+            max-width: 100%;
+            margin: auto;
+        }
+        .competency-body br {
+            display: none;
+        }
+        .expertise-img {
+            width: 85%;
+        }
+        .advantage {
+            min-height: 220px;
+        }
+        #block-views-block-team-new {
+            padding-top: 50px;
+        }
+        #block-views-block-team-new .views-row {
+            padding: 0 15px;
+        }
+        #block-views-block-testimonials-block-1 .views-field-field-report-text {
+            margin-bottom: 15px;
+        }
+        .blog.keys-1, .blog.keys-2 {
+            width: 50%;
+        }
+        #block-views-block-blog-block-1 .view-content>article:nth-of-type(7n) {
+            width: 100%;
+        }
+    }
+    @media (max-width:600px) {
+        .block-main h1 {
+            font-size: 24px;
+        }
+        .block-form-title {
+            font-size: 22px;
+            text-align: center;
+        }
+        .block-form-wrapper {
+            text-align: justify;
+        }
+        .user-teaser {
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+        .user-teaser-photo {
+            margin-bottom: 15px;
+        }
+        .user-teaser-post {
+            font-size: 12px;
+        }
+        #block-views-block-team-new {
+            margin-bottom: 30px;
+        }
+        #block-views-block-our-clients {
+            margin-bottom: 45px;
+        }
+        #block-views-block-our-clients .attachment-after .slick-track {
+            margin-left: -25%;
+        }
+        #block-views-block-our-clients .view-header {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        #block-views-block-testimonials-block-1 .view-content {
+            margin-top: 30px;
+        }
+        #block-views-block-testimonials-block-1 .view-content:before {
+            top: -15px;
+            left: 15px;
+            right: 15px;
+        }
+        #block-views-block-testimonials-block-1 .view-content:after {
+            top: -30px;
+            left: 30px;
+            right: 30px;
+        }
+        .blog.keys-1, .blog.keys-2 {
+            width: 100%;
+            min-height: 240px;
+        }
+    }
+    .fab {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+    .fa-facebook-f:before {
+        content: "\f39e";
+    }
+    .fa-telegram-plane:before {
+        content: "\f3fe";
+    }
+    .fa-vk:before {
+        content: "\f189";
+    }
+    .fa-youtube:before {
+        content: "\f167";
+    }
+    .sr-only {
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    .fab {
+        font-family: 'Font Awesome 5 Brands';
+    }
+    .block-main {
+        overflow: hidden;
+        position: relative;
+        padding: 130px 0 60px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .block-main:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: url(/img/druplicon.svg) no-repeat left top;
+        background-color: rgba(0, 0, 0, .8);
+        z-index: 10;
+    }
+    .block-main h1 {
+        font-size: 52px;
+        line-height: 60px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .block-main-background video {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 5;
+        filter: blur(3px);
+        transform: scale(1.04);
+    }
+    .block-main .container {
+        position: relative;
+        z-index: 15;
+    }
+    .support-main-description {
+        font-size: 18px;
+        line-height: 1.6;
+        font-weight: 500;
+        color: rgba(255, 255, 255, .8);
+        margin-bottom: 55px;
+    }
+    @media (max-width:767px) {
+        .row-flex {
+            margin-bottom: 10px;
+        }
+        .tariff {
+            margin: 0 auto 30px;
+            padding: 30px 15px;
+            width: 420px;
+            max-width: 100%;
+        }
+        .tariff-wrapper {
+            width: 100%;
+        }
+        .tariff:hover, .tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover, .col-flex:nth-of-type(2n) .tariff {
+            transform: initial;
+        }
+        .block-main {
+            padding-top: 40px;
+        }
+        .block-main:before {
+            background-size: contain;
+            background-position: center top;
+        }
+        .block-main h1 {
+            font-size: 42px;
+            line-height: 1.2;
+            text-align: center;
+        }
+        .support-main-description {
+            font-size: 14px;
+            text-align: center;
+        }
+        .block-main-wrapper {
+            text-align: center;
+        }
+        .block-main-btn {
+            margin-bottom: 55px;
+        }
+        .block-form-title, .competencies h2, .advantages h2, .expertise h2, #block-tariffs .block-title, #block-views-block-team-new .block-title, #block-views-block-our-clients .block-title, #block-views-block-testimonials-block-1 .block-title, #block-views-block-blog-block-1 .block-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            margin-top: initial;
+        }
+        .block-form-wrapper {
+            margin: 0 auto 30px;
+            text-align: center;
+        }
+        .block-form-contacts ul li a {
+            font-size: 14px;
+        }
+        .block-form-contacts .block-form-phone a {
+            font-size: 24px;
+        }
+        .field--form-value form {
+            margin: auto;
+        }
+        footer {
+            background-size: cover, 165px, 140px;
+        }
+        .competency {
+            margin-bottom: 30px;
+        }
+        .competency-header {
+            text-align: center;
+        }
+        .competency-icon {
+            padding: 0;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        .competency-icon:before {
+            left: -54px;
+        }
+        .competency-icon img {
+            margin: auto;
+        }
+        .competency-body {
+            font-size: 14px;
+            width: 200px;
+            max-width: 100%;
+            margin: auto;
+        }
+        .competency-body br {
+            display: none;
+        }
+    }
+    @media (max-width:600px) {
+        .block-main h1 {
+            font-size: 24px;
+        }
+        .block-form-title {
+            font-size: 22px;
+            text-align: center;
+        }
+        .block-form-wrapper {
+            text-align: justify;
+        }
+    }
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: normal;
+    src: url("/webfonts/fa-brands-400.eot");
+    src: url("/webfonts/fa-brands-400.eot#iefix") format("embedded-opentype"), url("/webfonts/fa-brands-400.woff2") format("woff2"), 
+    url("/webfonts/fa-brands-400.woff") format("woff"), url("/webfonts/fa-brands-400.ttf") format("truetype"), url("/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
